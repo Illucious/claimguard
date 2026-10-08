@@ -1,0 +1,14 @@
+# Render Blueprint for ClaimGuard AI.
+services:
+  - type: web
+    name: claimguard-ai
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+      - key: LLM_PROVIDER
+        value: groq
+      - key: TOOL_MODE
+        value: mcp
