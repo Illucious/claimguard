@@ -1,0 +1,14 @@
+claim_id,policy_id,claim_type,claim_amount,incident_date,reported_date,claim_status,description,decision_note,updated_at
+C1001,P1001,Accident,85000,2026-07-10,2026-07-12,Pending,Rear-end collision at a traffic signal; bumper and tail-light damage,,
+C1002,P1002,Hospitalization,145000,2026-08-03,2026-08-05,Pending,Emergency appendectomy with 4-day hospital stay,,
+C1003,P1003,Theft,450000,2026-09-02,2026-09-03,Pending,Car stolen from residential parking lot overnight; FIR filed,,
+C1004,P1004,Flood,1200000,2026-07-28,2026-08-02,Pending,Monsoon flooding damaged ground floor furniture and electricals,,
+C1005,P1005,Accident,120000,2026-08-15,2026-08-16,Pending,Side collision on highway; door and mirror damage,,
+C1006,P1006,Surgery,90000,2026-09-12,2026-09-14,Pending,Knee arthroscopy surgery,,
+C1007,P1007,Fire,3500000,2026-09-05,2026-09-06,Pending,Kitchen fire spread to living room; major structural damage,,
+C1008,P1008,Baggage Loss,35000,2026-09-18,2026-09-19,Pending,Checked baggage lost on international flight,,
+C1009,P1009,Theft,200000,2026-08-25,2026-08-26,Pending,Car stereo system and wheels stolen,,
+C1010,P1010,Maternity,180000,2026-06-20,2026-06-22,Approved,Childbirth hospitalization (C-section),Auto-approved: low risk,2026-06-25T10:00:00
+C1011,P1001,Vandalism,25000,2025-12-20,2025-12-22,Pending,Windshield smashed by unknown persons,,
+C1012,P1003,Accident,950000,2026-09-20,2026-09-21,Pending,Major collision with truck; vehicle declared total loss,,
+C1013,P1002,Critical Illness,400000,2026-08-01,2026-09-20,Pending,Diagnosed with cardiac condition requiring treatment,,

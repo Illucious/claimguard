@@ -1,0 +1,9 @@
+history_id,policy_id,claim_date,claim_type,claim_amount,claim_status
+H001,P1003,2025-02-14,Accident,220000,Paid
+H002,P1003,2025-08-30,Theft,300000,Paid
+H003,P1002,2025-10-11,Hospitalization,40000,Paid
+H004,P1005,2024-11-05,Accident,60000,Paid
+H005,P1009,2026-06-18,Accident,30000,Rejected
+H006,P1010,2026-02-10,Hospitalization,75000,Paid
+H007,P1006,2026-03-15,Surgery,120000,Paid
+H008,P1004,2024-07-22,Flood,150000,Paid

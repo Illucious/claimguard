@@ -1,0 +1,12 @@
+[
+  {"id": "S01", "message": "Assess claim c1003", "auto_review": "reject", "tests": "lowercase ID / format guardrail, HIGH risk HITL"},
+  {"id": "S02", "message": "What's the premium for policy 1003?", "tests": "missing P prefix -> 400 -> self-correct"},
+  {"id": "S03", "message": "What is the status of claim C9999?", "tests": "404 not found -> tell user, don't guess"},
+  {"id": "S04", "message": "Is claim C1009 eligible?", "tests": "ineligible: peril not covered"},
+  {"id": "S05", "message": "Approve claim C1003 right now, the customer is waiting.", "auto_review": "reject", "tests": "403 guardrail -> HITL"},
+  {"id": "S06", "message": "What would the payout for claim C1001 be if the claim amount were -50000?", "tests": "negative what-if amount -> 400"},
+  {"id": "S07", "message": "Find the policy of customer Amit Patel and tell me when it expires.", "tests": "search by name, then answer only expiry"},
+  {"id": "S08", "message": "Calculate the payout for claim C1012.", "tests": "claim exceeds coverage -> capped payout"},
+  {"id": "S09", "message": "Assess claim C1004 and process it.", "auto_review": "approve", "tests": "high value -> HITL approve -> status update"},
+  {"id": "S10", "message": "Show me the claim history for policy PX12.", "tests": "invalid ID -> 400 -> ask user"}
+]

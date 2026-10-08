@@ -1,0 +1,11 @@
+policy_id,customer_name,customer_phone,customer_email,policy_type,premium_annual,coverage_amount,deductible,policy_status,start_date,end_date,covered_perils
+P1001,Rahul Sharma,9876543210,rahul.sharma@example.com,Auto,18500,600000,5000,Active,2026-01-15,2027-01-14,Accident|Theft|Fire|Vandalism
+P1002,Priya Verma,9812345678,priya.verma@example.com,Health,32000,1000000,10000,Active,2026-02-01,2027-01-31,Hospitalization|Surgery|Critical Illness
+P1003,Amit Patel,9898989898,amit.patel@example.com,Auto,24500,800000,10000,Active,2025-12-01,2026-11-30,Accident|Theft|Fire|Vandalism
+P1004,Sneha Iyer,9765432109,sneha.iyer@example.com,Home,15000,2500000,25000,Active,2026-03-10,2027-03-09,Fire|Theft|Flood|Natural Disaster
+P1005,Vikram Singh,9123456780,vikram.singh@example.com,Auto,21000,700000,7500,Expired,2024-06-01,2025-05-31,Accident|Theft|Fire
+P1006,Anjali Gupta,9988776655,anjali.gupta@example.com,Health,28000,500000,5000,Lapsed,2026-01-01,2026-12-31,Hospitalization|Surgery
+P1007,Karan Mehta,9090909090,karan.mehta@example.com,Home,22000,4000000,50000,Active,2026-08-20,2027-08-19,Fire|Theft|Flood
+P1008,Neha Reddy,9345678901,neha.reddy@example.com,Travel,4500,300000,2000,Active,2026-06-01,2026-12-31,Trip Cancellation|Baggage Loss|Medical Emergency
+P1009,Arjun Nair,9456789012,arjun.nair@example.com,Auto,19500,550000,5000,Active,2026-05-01,2027-04-30,Accident|Fire
+P1010,Meera Joshi,9567890123,meera.joshi@example.com,Health,45000,2000000,15000,Active,2025-11-01,2026-10-31,Hospitalization|Surgery|Critical Illness|Maternity
